@@ -12,3 +12,4 @@ iOS UIKit Half-Screen Modal View Controller
 
 HalfScreenModalViewController is available under the MIT license. See the LICENSE file for more info.
 
+<img align="center" src="https://github.com/syt2/HalfScreenModalViewController/blob/4a9242dac5d507e2a20d7f155e613c0eeb714501/Example/Example/screenshot.GIF" width=120/>
