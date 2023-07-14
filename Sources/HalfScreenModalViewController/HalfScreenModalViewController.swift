@@ -204,7 +204,7 @@ private extension HalfScreenModalViewController {
             }
         }
         if from.defaultHeight != to.defaultHeight || currentContentHeight > to.maximumHeight {
-            changeToNewHeight(config.defaultHeight)
+            animateContentHeight(config.defaultHeight)
         }
     }
     
