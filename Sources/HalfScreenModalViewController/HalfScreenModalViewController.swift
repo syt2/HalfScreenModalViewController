@@ -203,6 +203,9 @@ private extension HalfScreenModalViewController {
                 removeDragable(view: view)
             }
         }
+        if from.defaultHeight != to.defaultHeight || currentContentHeight > to.maximumHeight {
+            changeToNewHeight(config.defaultHeight)
+        }
     }
     
     func configViews() {
